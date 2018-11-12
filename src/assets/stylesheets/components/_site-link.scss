@@ -1,0 +1,18 @@
+.site-link {
+  background: $grey-light;
+  box-shadow: rem-calc(0 1 2 1) rgba($grey, 0.5);
+  margin: $gutter-large;
+  padding: $gutter-small;
+  width: rem-calc(400); height: rem-calc(400);
+
+  &__title {
+    text-align: center;
+  }
+
+  &__logo {
+    margin: rem-calc(20) auto;
+    width: 50%;
+
+    display: block;
+  }
+}
