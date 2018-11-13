@@ -7,5 +7,9 @@
     padding-left: rem-calc(50);
 
     width: rem-calc(200); max-height: rem-calc(42);
+
+    &--left {
+      padding-left: 0;
+    }
   }
 }

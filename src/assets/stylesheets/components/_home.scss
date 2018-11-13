@@ -1,8 +1,13 @@
 .home {
   &__header {
-    @extend .section-padding--top;
+    @extend .section-padding;
 
-    color: $white; 
+    background-size: cover;
+    color: $white;
+
+    @include breakpoint($large) {
+      padding: $section-padding-top-medium 0 $section-padding-bottom-medium 0;
+    }
   }
 
     &__title {

@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="bg--navy">
-    <header class="home__header">
+    <header class="home__header" :style= "{ 'background-image': `url(${bgImg})` }">
       <img class="home__title" src="./assets/ocean-plus-main-logo.svg" alt="Ocean+ Logo"/>
       <div class="home__description container--small">
         <p class="home__description-paragraph" v-for="paragraph in description">{{ paragraph }}</p>
@@ -16,6 +16,7 @@
 <script>
 import SiteLink from './components/SiteLink.vue';
 import SiteFooter from './components/SiteFooter.vue';
+import bgImg from '@/assets/background.jpg';
 
 import { description, externalSites } from "./config";
 
@@ -28,7 +29,8 @@ export default {
   data: function () {
     return {
       description,
-      externalSites
+      externalSites,
+      bgImg
     }
   }
 }
