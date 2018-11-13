@@ -1,11 +1,13 @@
 <template>
   <div id="app" class="bg--navy">
-    <header class="home__header" :style= "{ 'background-image': `url(${bgImg})` }">
-      <img class="home__title" src="./assets/ocean-plus-main-logo.svg" alt="Ocean+ Logo"/>
-      <div class="home__description container--small">
-        <p class="home__description-paragraph" v-for="paragraph in description">{{ paragraph }}</p>
-      </div>
-    </header>
+    <div class="home__hero-image" :style= "{ 'background-image': `url(${bgImg})` }">
+      <header class="home__header">
+        <img class="home__title" src="./assets/ocean-plus-main-logo.svg" alt="Ocean+ Logo"/>
+        <div class="home__description container--small">
+          <p class="home__description-paragraph" v-for="paragraph in description">{{ paragraph }}</p>
+        </div>
+      </header>
+    </div>
     <div class="container page-padding flex flex-wrap flex-h-center">
       <site-link v-for="site in externalSites" :key="site.id" :site="site"></site-link>
     </div>

@@ -4,7 +4,7 @@
       <img v-if="site.imagePath" class="site-link__logo" :src="site.imagePath" :alt="`${site.name} Logo`"/>
       <h1 v-else class="site-link__title">{{ site.name }}</h1>
     </a>
-    <p class="site-link__description">{{ site.description }}</p>
+    <p class="site-link__description" v-html="description"></p>
     </div>
 </template>
 
@@ -14,6 +14,13 @@ export default {
     site : {
       required: true,
       type: Object
+    }
+  },
+
+  computed: {
+    description () {
+      return this.site.description.replace(/\[(.*?)\]/g, name => 
+        `<a class="site-link__text-link" href="${this.site.link}">${name.substring(1,name.length -1)}</a>`);
     }
   }
 }

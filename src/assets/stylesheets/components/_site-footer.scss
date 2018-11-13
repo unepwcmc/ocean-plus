@@ -4,10 +4,20 @@
 
   &__partner-logo {
     opacity: .5;
-    padding-left: rem-calc(50);
+    padding-left: rem-calc(20);
+    vertical-align: middle;
 
-    width: rem-calc(200); max-height: rem-calc(42);
+    width: rem-calc(100); max-height: rem-calc(42);
 
+    @include breakpoint($small) {
+      padding-left: rem-calc(35);
+      width: rem-calc(140);
+    }
+    @include breakpoint($large) {
+      padding-left: rem-calc(50);
+      width: rem-calc(200);
+    }
+    
     &--left {
       padding-left: 0;
     }
