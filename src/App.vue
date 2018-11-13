@@ -16,11 +16,11 @@
 </template>
 
 <script>
-import SiteLink from './components/SiteLink.vue';
-import SiteFooter from './components/SiteFooter.vue';
-import bgImg from '@/assets/images/background.jpg';
+import SiteLink from './components/SiteLink.vue'
+import SiteFooter from './components/SiteFooter.vue'
+import bgImg from '@/assets/images/background.jpg'
 
-import { description, externalSites } from "./config";
+import { description, externalSites } from "./config"
 
 export default {
   name: 'app',
@@ -39,5 +39,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './assets/stylesheets/application.scss';
+@import './assets/stylesheets/application.scss'
 </style>

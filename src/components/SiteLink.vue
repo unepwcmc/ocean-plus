@@ -20,7 +20,7 @@ export default {
   computed: {
     description () {
       return this.site.description.replace(/\[(.*?)\]/g, name => 
-        `<a class="site-link__text-link" href="${this.site.link}">${name.substring(1,name.length -1)}</a>`);
+        `<a class="site-link__text-link" href="${this.site.link}">${name.substring(1,name.length -1)}</a>`)
     }
   }
 }
