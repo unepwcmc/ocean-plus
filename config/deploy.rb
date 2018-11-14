@@ -9,6 +9,9 @@ set :nvm_type, :user # or :system, depends on your nvm setup
 set :nvm_node, 'v9.0.0'
 set :nvm_map_bins, %w{node npm yarn}
 
+set :npm_flags, '--silent --no-progress'
+
+
 set :deploy_user, 'wcmc'
 
 
@@ -94,3 +97,11 @@ set :passenger_restart_with_touch, false
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
+
+
+#task :npm_install, :roles => :app, :except => { :no_release => true } do
+#    run "cd /home/#{fetch(:deploy_user)}/#{fetch(:application)}/current/ && npm install"
+#end
+
+
+

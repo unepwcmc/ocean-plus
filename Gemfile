@@ -10,5 +10,6 @@ gem 'capistrano-bundler', '~> 1.1', require: false
 gem 'capistrano-passenger', '~> 0.1.1', require: false
 gem 'capistrano-nvm'
 gem 'capistrano-yarn'
+gem 'capistrano-npm'
 end
 
