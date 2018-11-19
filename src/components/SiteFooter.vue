@@ -5,9 +5,6 @@
     </a>
 
     <div class="flex flex-v-center">
-      <a href="https://panorama.solutions/en/portal/marine-and-coastal" title="Visit Panorama">
-        <img src="../assets/images/logo-panorama.svg" alt="Panorama logo" class="footer__partner-logo logo--panorama" />
-      </a>
       <a href="https://geobon.org" title="Visit GEO BON">
         <img src="../assets/images/logo-geobon.svg" alt="GEO BON logo" class="footer__partner-logo logo--geobon" />
       </a>
