@@ -1,24 +1,51 @@
-.footer {
+//--------------------------------------------------
+// footer
+//--------------------------------------------------
+.footer-wrapper {
   background-color: $navy-xdark;
-  height: rem-calc(128);
+}
 
-  &__partner-logo {
-    opacity: .5;
-    padding-left: rem-calc(20);
-
-    width: rem-calc(100); max-height: rem-calc(42);
-
-    @include breakpoint($small) {
-      padding-left: rem-calc(35);
-      width: rem-calc(140);
-    }
-    @include breakpoint($large) {
-      padding-left: rem-calc(50);
-      width: rem-calc(200);
-    }
-    
-    &--left {
-      padding-left: 0;
-    }
+.footer {
+  @include breakpoint_down($small) {
+    padding-top: rem-calc(30);
+    padding-bottom: rem-calc(20);
   }
+
+  @include breakpoint($small) {
+    align-items: center;
+    justify-content: space-between;
+    height: rem-calc(90);
+
+    display: flex;
+  }
+
+  @include breakpoint($medium) { height: rem-calc(77); }
+
+    &__partner-logo {
+      @extend .flex;
+      opacity: .5;
+      margin: rem-calc(8 10);
+      width: rem-calc(80); max-height: rem-calc(22);
+
+      @include breakpoint($small) { 
+        margin: rem-calc(0 0 0 18);
+        width: rem-calc(100); max-height: rem-calc(28); 
+      }
+
+      @include breakpoint($medium) { 
+        margin-left: rem-calc(22);
+        width: rem-calc(110); max-height: rem-calc(36); 
+      }
+
+      &.logo--site {
+        margin: 0 auto rem-calc(20) auto;
+
+        @include breakpoint($small) { 
+          margin: 0; 
+          width: rem-calc(100); max-height: rem-calc(28); 
+        }
+
+        @include breakpoint($medium) { width: rem-calc(110); max-height: rem-calc(36); }
+      }
+    }
 }
