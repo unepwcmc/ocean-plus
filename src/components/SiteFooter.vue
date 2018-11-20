@@ -29,7 +29,7 @@
     name: 'site-footer',
 
     computed: {
-      currentYear () {
+      currentYear: function () {
         return new Date().getFullYear()
       }
     }

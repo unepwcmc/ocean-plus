@@ -18,9 +18,12 @@ export default {
   },
 
   computed: {
-    description () {
-      return this.site.description.replace(/\[(.*?)\]/g, name => 
-        `<a class="site-link__text-link" href="${this.site.link}">${name.substring(1,name.length -1)}</a>`)
+    description: function () {
+      const link = this.site.link
+
+      return this.site.description.replace(/\[(.*?)\]/g, function(name) {
+        `<a class="site-link__text-link" href="${link}">${name.substring(1,name.length -1)}</a>`
+      })
     }
   }
 }
