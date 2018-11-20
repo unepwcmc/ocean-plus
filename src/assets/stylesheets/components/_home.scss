@@ -30,4 +30,12 @@
           font-weight: $normal;
         }
       }
+
+  &__main {
+    flex-wrap: wrap;
+
+    @include breakpoint($medium) {
+      flex-wrap: nowrap;
+    }
+  }
 }

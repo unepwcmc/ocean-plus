@@ -8,7 +8,7 @@
         </div>
       </header>
     </div>
-    <div class="container page-padding flex flex-wrap flex-h-center">
+    <div class="home__main container page-padding flex flex-h-center">
       <site-link v-for="site in externalSites" :key="site.id" :site="site"></site-link>
     </div>
     <site-footer></site-footer>
