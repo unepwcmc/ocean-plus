@@ -19,10 +19,10 @@ export default {
 
   computed: {
     description: function () {
-      const link = this.site.link
-
+      var that = this
+      
       return this.site.description.replace(/\[(.*?)\]/g, function(name) {
-        `<a class="site-link__text-link" href="${link}">${name.substring(1,name.length -1)}</a>`
+        return `<a class="site-link__text-link" href="${that.site.link}">${name.substring(1,name.length -1)}</a>`
       })
     }
   }
