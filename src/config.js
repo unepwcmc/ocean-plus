@@ -10,7 +10,7 @@ export const externalSites = [
     id: 2,
     name: `Ocean+ Habitats`,
     link: `https://habitats.oceanplus.org/`,
-    description: `[Ocean+ Habitats] aims to improve access to marine biodiversity data and information through partnerships.`,
+    description: `[Ocean+ Habitats] aims to improve access to marine habitat data and information through partnerships, and will be evolving to include regional and national information.`,
     imagePath: require(`@/assets/images/logo-ocean-plus-habitats.svg`),
   },
   {
