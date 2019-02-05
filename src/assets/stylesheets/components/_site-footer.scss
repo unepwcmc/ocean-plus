@@ -3,6 +3,13 @@
 //--------------------------------------------------
 .footer-wrapper {
   background-color: $navy-xdark;
+
+  @include breakpoint($small) {
+    width: 100%;
+  
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 .footer {
@@ -14,12 +21,10 @@
   @include breakpoint($small) {
     align-items: center;
     justify-content: space-between;
-    height: rem-calc(90);
+    height: $footer-height-medium;
 
     display: flex;
   }
-
-  @include breakpoint($medium) { height: rem-calc(77); }
 
     &__partner-logo {
       @extend .flex;

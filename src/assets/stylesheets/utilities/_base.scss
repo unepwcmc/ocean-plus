@@ -14,13 +14,19 @@ body {
   margin: 0;
 }
 
+#app {
+  position: relative;
+
+  @include breakpoint($small) {
+    padding-bottom: $footer-height-medium;
+    min-height: 100vh;
+  }
+}
+
 h1 {
   font-size: rem-calc(48);
   font-weight: $normal;
   line-height: 1.2;
-}
-
-h2 {
 }
 
 h3 {
