@@ -2,7 +2,7 @@ set :stage, :staging
 set :branch, "supported-staging"
 
 
-server "web-supported-staging.staging.linode.unep-wcmc.org", user: 'wcmc', roles: %w{app web db}
+server "web-supported-staging.linode.unep-wcmc.org", user: 'wcmc', roles: %w{app web db}
 
 set :application, "ocean-plus-landing"
 set :server_name, "ocean-plus-landing.web-supported-staging.linode.unep-wcmc.org"
