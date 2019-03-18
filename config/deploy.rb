@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:unepwcmc/ocean-plus.git"
 
 
 set :nvm_type, :user # or :system, depends on your nvm setup
-set :nvm_node, 'v9.0.0'
+set :nvm_node, 'v10.15.1'
 set :nvm_map_bins, %w{node npm yarn}
 
 set :npm_flags, '--silent --no-progress'
