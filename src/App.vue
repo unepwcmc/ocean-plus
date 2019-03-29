@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="bg--navy">
-    <div class="home__hero-image" :style= "{ 'background-image': `url(${bgImg})` }">
+    <div class="home__hero-image" :style= "{ 'background-image': 'url(' + bgImg + ')' }">
       <header class="home__header">
         <img class="home__title" src="./assets/images/ocean-plus-main-logo.svg" alt="Ocean+ Logo"/>
         <div class="home__description container--small">
