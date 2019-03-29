@@ -1,11 +1,11 @@
 set :stage, :production
-set :branch, "master"
+set :branch, "supported-production"
 
 
-server "web-production.linode.unep-wcmc.org", user: 'wcmc', roles: %w{app web db}
+server "web-supported-production.linode.unep-wcmc.org", user: 'wcmc', roles: %w{app web db}
 
 set :application, "ocean-plus-landing"
-set :server_name, "ocean-plus-landing.web-production.linode.unep-wcmc.org"
+set :server_name, "ocean-plus-landing.web-supported-production.linode.unep-wcmc.org"
 set :sudo_user, "wcmc"
 set :app_port, "80"
 
