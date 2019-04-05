@@ -55,18 +55,34 @@ set :linked_files, %w{config/database.yml .env}
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'node_modules', 'client/node_modules')
 
 
-namespace :npmbuild do
-    desc 'npmbuild'
-    task :npmbuild do
-    on roles(:web) do
-    within current_path do
-    execute :npm, 'run build'
-    end
-     end
-end
-end
+#namespace :npmbuild do
+#    desc 'npmbuild'
+ #   task :npmbuild do
+ #   on roles(:web) do
+ #   within current_path do
+ #   execute :npm, 'run build'
+ #   end
+ #    end
+#e#nd
+#end
 
-after "deploy", "npmbuild:npmbuild"
+#after "deploy", "npmbuild:npmbuild"
+
+#namespace :npm do
+#  desc 'Install dependencies with npm'
+#  task :install do
+#    on roles(:web) do
+#      within release_path do
+#        execute "bash -c 'source ~/.nvm/nvm.sh && cd '#{release_path}' && npm install'"
+#      end
+#    end
+#  end
+#end
+
+#before 'deploy:assets:precompile', 'npm:install'
+
+
+
 
 
 # Default value for default_env is {}
