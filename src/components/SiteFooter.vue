@@ -14,7 +14,7 @@
             <img src="../assets/images/logo-proteus.svg" alt="Proteus logo" class="footer__partner-logo logo--proteus" />
           </a>
           <a href="https://www.unep-wcmc.org" title="Visit the UN Environment World Conservation Montioring Centre" target="_blank">
-            <img src="https://s3.amazonaws.com/wcmc.logo/UN-Environment-WCMC+logo+2017+white.svg" alt="UN Environment World Conservation Monitoring logo" class="footer__partner-logo logo--wcmc" />
+            <img src="https://s3.amazonaws.com/wcmc.logo/UNEP_WCMC_logo_white.svg" alt="UN Environment World Conservation Monitoring logo" class="footer__partner-logo logo--wcmc" />
           </a>
         </div>
 
