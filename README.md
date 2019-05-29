@@ -29,4 +29,4 @@ yarn run lint
 
 ## Deploying
 
-Before deploying, run `yarn run build` and commit and push the results to the branch you wish to deploy.
+Before deploying, run `yarn build` and commit and push the results to the branch you wish to deploy.
