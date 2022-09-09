@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+
     actionpack (7.0.2.4)
       actionview (= 7.0.2.4)
       activesupport (= 7.0.2.4)
@@ -10,6 +11,7 @@ GEM
       rails-html-sanitizer (~> 1.0, >= 1.2.0)
     actionview (7.0.2.4)
       activesupport (= 7.0.2.4)
+
       builder (~> 3.1)
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
@@ -90,6 +92,7 @@ GEM
       rack-proxy (>= 0.6.1)
       railties (>= 4.2)
     zeitwerk (2.5.4)
+
 
 PLATFORMS
   ruby
