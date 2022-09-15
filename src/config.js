@@ -19,14 +19,7 @@ export const externalSites = [
     link: 'https://data.oceanplus.org',
     description: '[Ocean+ Library] is a meta-database that provides summary information on additional online resources and data of ocean biodiversity importance. Users can search the information on the platform to find relevant resources that support effective ocean conservation on a regional and global level.',
     imagePath: require('@/assets/images/logo-ocean-plus-library.svg'),
-  },
-  // {
-  //   id: 3,
-  //   name: 'Protected Planet – Marine',
-  //   link: 'https://www.protectedplanet.net/marine',
-  //   description: '[Protected Planet – Marine] presents the most recent official coverage statistics for marine protected areas, updated monthly from the World Database on Protected Areas.',
-  //   imagePath: require('@/assets/images/protected-planet-logo-reversed.svg'),
-  // },
+  }
 ]
 
 export const description = [
