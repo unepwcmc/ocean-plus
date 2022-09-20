@@ -67,3 +67,13 @@
       }
     }
 }
+
+.logo--iucn {
+  width: rem-calc(35);
+  @include breakpoint($small) { 
+    width: rem-calc(40);
+  }
+  @include breakpoint($medium) { 
+    width: rem-calc(50);
+  }
+}

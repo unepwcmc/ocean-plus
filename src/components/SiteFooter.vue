@@ -17,7 +17,7 @@
             <img src="https://s3.amazonaws.com/wcmc.logo/UNEP_WCMC_logo_white.svg" alt="UN Environment World Conservation Monitoring logo" class="footer__partner-logo logo--wcmc" />
           </a>
           <a href="https://www.iucnredlist.org/" title="Visit IUCN RedList" target="_blank">
-            <img src="../assets/images/IUCN-RedList.png" alt="IUCN RedList logo" class="footer__partner-logo logo--wcmc" />
+            <img src="../assets/images/IUCN-RedList.png" alt="IUCN RedList logo" class="footer__partner-logo logo--iucn" />
           </a>
         </div>
 
