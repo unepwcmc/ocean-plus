@@ -3,21 +3,21 @@ export const externalSites = [
     id: 4,
     name: 'Ocean+ Data Viewer',
     link: 'http://data.unep-wcmc.org',
-    description: '[Ocean+ Data Viewer] is the go-to-platform for up-to-date, globally coherent, marine biodiversity spatial datasets. Users can view and download a range of spatial datasets that are useful for informing decisions regarding the conservation of ocean biodiversity.',
+    description: '<strong>[Ocean+ Data Viewer]</strong> is the go-to-platform for up-to-date, globally coherent, <strong>marine biodiversity spatial datasets</strong>. Users can view and download a range of spatial datasets that are useful for informing decisions regarding the conservation of ocean biodiversity.',
     imagePath: require('@/assets/images/Ocean+-data-viewer-logo.svg'),
   },
   {
     id: 2,
     name: 'Ocean+ Habitats',
     link: 'https://habitats.oceanplus.org/',
-    description: '[Ocean+ Habitats] provides readily-available information and statistics on the distribution and conservation status of critical marine and coastal habitats. Combining habitat distribution data with Protected Planet and the IUCN Red List, users can explore and download tabular and spatial data to inform the conservation of marine habitats.',
+    description: '<strong>[Ocean+ Habitats]</strong> provides readily-available information and statistics on the distribution and conservation status of <strong>critical marine and coastal habitats</strong>. Combining habitat distribution data with Protected Planet and the IUCN Red List, users can explore and download tabular and spatial data to inform the conservation of marine habitats.',
     imagePath: require('@/assets/images/logo-ocean-plus-habitats.svg'),
   },
   {
     id: 1,
     name: 'Ocean+ Library',
     link: 'https://data.oceanplus.org',
-    description: '[Ocean+ Library] is a meta-database that provides summary information on additional online resources and data of ocean biodiversity importance. Users can search the information on the platform to find relevant resources that support effective ocean conservation on a regional and global level.',
+    description: '<strong>[Ocean+ Library]</strong> is a meta-database that provides summary information on additional <strong>online resources and data</strong> of ocean biodiversity importance. Users can search the information on the platform to find relevant resources that support effective ocean conservation on a regional and global level.',
     imagePath: require('@/assets/images/logo-ocean-plus-library.svg'),
   }
 ]
