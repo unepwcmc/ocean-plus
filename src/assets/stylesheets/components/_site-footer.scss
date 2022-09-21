@@ -69,11 +69,11 @@
 }
 
 .logo--iucn {
-  width: rem-calc(30);
+  width: rem-calc(25);
   @include breakpoint($small) { 
-    width: rem-calc(35);
+    width: rem-calc(30);
   }
   @include breakpoint($medium) { 
-    width: rem-calc(45);
+    width: rem-calc(40);
   }
 }
