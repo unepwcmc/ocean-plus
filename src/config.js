@@ -1,10 +1,10 @@
 export const externalSites = [
   {
     id: 4,
-    name: 'Ocean Data Viewer',
+    name: 'Ocean+ Data Viewer',
     link: 'http://data.unep-wcmc.org',
     description: '[Ocean+ Data Viewer] is the go-to-platform for up-to-date, globally coherent, marine biodiversity spatial datasets. Users can view and download a range of spatial datasets that are useful for informing decisions regarding the conservation of ocean biodiversity.',
-    imagePath: require('@/assets/images/odv-reversed-01.svg'),
+    imagePath: require('@/assets/images/Ocean+-data-viewer-logo.svg'),
   },
   {
     id: 2,
