@@ -13,3 +13,5 @@ gem 'capistrano-yarn'
 gem 'capistrano-npm'
 end
 
+gem "ed25519", "~> 1.2"
+gem "bcrypt_pbkdf", "~> 1.1"
