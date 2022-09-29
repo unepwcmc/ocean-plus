@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+This is a simple landing page for Ocean+ apps, linking to the Ocean+ Data Viewer, Ocean+ Habitats, and the Ocean+ Library. 
+
 ## Project setup
 ```
 yarn install
