@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="bg--navy">
+    <site-banner></site-banner>
     <div class="home__hero-image" :style= "{ 'background-image': 'url(' + bgImg + ')' }">
       <header class="home__header">
         <img class="home__title" src="./assets/images/ocean-plus-main-logo.svg" alt="Ocean+ Logo"/>
@@ -18,15 +19,17 @@
 <script>
 import SiteLink from './components/SiteLink.vue'
 import SiteFooter from './components/SiteFooter.vue'
+import SiteBanner from './components/SiteBanner.vue'
 import bgImg from '@/assets/images/background.jpg'
 
-import { description, externalSites } from "./config"
+import { description, externalSites} from "./config"
 
 export default {
   name: 'app',
   components: {
     SiteLink,
-    SiteFooter
+    SiteFooter,
+    SiteBanner
   },
   data: function () {
     return {

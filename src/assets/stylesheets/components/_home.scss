@@ -2,6 +2,7 @@
 
   &__hero-image {
     background-size: cover;
+    background-repeat: repeat;
   }
 
     &__header {
@@ -10,7 +11,7 @@
       color: $white;
 
       @include breakpoint($large) {
-        padding: $section-padding-top-medium 0 $section-padding-bottom-medium 0;
+        padding: $section-padding-top-xlarge 0 $section-padding-bottom-medium 0;
       }
     }
 
