@@ -1,3 +1,7 @@
+## 0.0.4
+
+* Add divestment banner
+
 ## 0.0.3
 
 * Update text, add RedList logo to footer, change Ocean+ Data Viewer logo
@@ -11,4 +15,3 @@
 ## 0.0.1
 
 * First release
-
