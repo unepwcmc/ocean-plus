@@ -1,5 +1,5 @@
 set :stage, :staging
-set :branch, "update-landing-page"
+set :branch, ENV['CAP_BRANCH'] || "master"
 
 
 server "web-supported-staging.linode.unep-wcmc.org", user: 'wcmc', roles: %w{app web db}
