@@ -29,8 +29,8 @@
         </p>
         <p>
           <a target="_blank" href="https://habitats.oceanplus.org/">Ocean+ Habitats</a>
-          will continue to be updated and remain a trusted source of authoritative
-          information on the status and conservation of the world’s coastal habitats.
+          will remain online and continue to be a trusted source of authoritative
+          information on the status and conservation of the world's coastal habitats
         </p>
       </div>
     </div>
