@@ -68,12 +68,13 @@
 .banner {
   .banner__content > p > a {
     &:link, &:visited {
-      color: #fff;
+      color: #ffffff;
       font-weight: bold;
-      text-decoration: none;
+      text-decoration: 2px underline;
+      text-decoration-color: inherit;
 
       &:hover {
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }
@@ -82,15 +83,18 @@
     display: inline;
     border: none;
     background: none;
-    font-weight: bold;
-    color: #ffffff;
     font-size: inherit;
     padding: 0;
     cursor: pointer;
+
     font-family: inherit;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: 2px underline;
+    text-decoration-color: inherit;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 
