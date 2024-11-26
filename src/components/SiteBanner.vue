@@ -2,14 +2,24 @@
   <div class="banner-background">
     <div class="banner">
       <div class="banner__title">
-        <p class="banner__text"> <img class='banner__alert' src='../assets/images/triangle-alert.svg'/> Changes to Ocean+ </p>
+        <p class="banner__text"> <img class='banner__alert' src='../assets/images/triangle-alert.svg'/> Ocean+ in 2025 </p>
       </div>
       <div class="banner__content">
         <p>
-          Ocean+ Data Viewer and Ocean+ Library will be retired in 2025.
-          To learn more about these changes, please read our
+          <a target="_blank" href="https://habitats.oceanplus.org/">Ocean+ Habitats</a>
+          will remain online and continue to be a trusted source of authoritative
+          information on the status and conservation of the world's coastal habitats.
+        </p>
+        <p>
+          <a target="_blank" href="http://data.unep-wcmc.org">Ocean+ Data Viewer</a> and
+          <a target="_blank" href="https://library.oceanplus.org/">Ocean+ Library</a>
+          will be retired in early 2025.
+          For new ways of accessing the ocean data previously hosted on
+          <a target="_blank" href="http://data.unep-wcmc.org">Ocean+ Data Viewer</a> and
+          <a target="_blank" href="https://library.oceanplus.org/">Ocean+ Library</a>,
+          please read our
           <ModalLauncher wrapper-component="span">
-            <template v-slot:launcherContent>frequently asked questions.</template>
+            <template v-slot:launcherContent>Frequently Asked Questions.</template>
             <template v-slot:default="{ closeModal }">
               <modal-panel :close-modal="closeModal">
                 <template slot="modalHeaderContent">
@@ -21,16 +31,6 @@
               </modal-panel>
             </template>
           </ModalLauncher>
-        </p>
-        <p>
-          Alternative ways of accessing the ocean data hosted on these platforms can be found on the
-          <a target="_blank" href="http://data.unep-wcmc.org">Ocean+ Data Viewer</a> and
-          <a target="_blank" href="https://library.oceanplus.org/">Ocean+ Library</a> pages.
-        </p>
-        <p>
-          <a target="_blank" href="https://habitats.oceanplus.org/">Ocean+ Habitats</a>
-          will remain online and continue to be a trusted source of authoritative
-          information on the status and conservation of the world's coastal habitats
         </p>
       </div>
     </div>
