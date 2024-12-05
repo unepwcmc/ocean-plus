@@ -23,7 +23,7 @@ export const externalSites = [
 ]
 
 export const description = [
-  'Ocean+ is an initiative that brings together accurate and up-to-date data and information on ocean biodiversity to support effective decisions that protect global marine life.',
-  'The ocean contains some of the most productive ecosystems, vast natural resources, and unique habitats on Earth. Home to more than half of all life on Earth, the ocean covers over 70% of the surface of the planet and plays a vital role in regulating the planet’s climate. Today, the marine environment is facing many pressures as a result of irresponsible human activity, from the impacts of climate change and overfishing to the effects of coastal development and pollution.',
-  'We must protect our ocean. Ocean+ and its three data platforms aim to provide open and trusted information on marine biodiversity so that we can all make the best choices to sustainably manage, conserve and restore the ocean.'
+  'Ocean+ brings together accurate and up-to-date data and information on ocean biodiversity to support effective decisions that protect marine life globally.',
+  'The ocean contains some of the most productive ecosystems, vast natural resources, and unique habitats on Earth. Home to more than half of all life on Earth, the ocean covers over 70% of the surface of the planet and plays a vital role in regulating the planet’s climate. Today, the marine environment is facing many pressures as a result of human activity, from the impacts of climate change and overfishing to the effects of coastal development and pollution.',
+  'Ocean+ aims to provide open and trusted information on marine biodiversity so that we can all make the best choices to sustainably manage, conserve and restore the ocean.'
 ]
